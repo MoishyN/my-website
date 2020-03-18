@@ -1,0 +1,449 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-16deg); 
+    }
+
+    to {
+        opacity: 1; 
+        transform: rotateX(0); 
+    }
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    font-family: Montserrat;
+    background-color: #212C4F;
+    padding: 0 3% 3% 3%;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 0 auto;
+
+}
+
+.main-profile-image {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: -8px;
+}
+
+.main-section {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.current-job {
+    margin-bottom: 60px;
+}
+
+.company {
+    color: #FF7DAF;
+    text-decoration: none;
+}
+
+.button {
+    padding: 12px 20px 12px 20px;
+    color: #212C4F;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 100%;
+    text-align: center;
+    background-color: #7CE1BB;
+    border-radius: 20px;
+    border: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 50px;
+}
+
+nav .tab-button {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    opacity: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+nav .tab-button:hover {
+    opacity: 100%;
+}
+
+.current-page {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.tab-contant {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.articles-box {
+    min-width: 508px;
+    height: 390px;
+    border: 1px solid #434D6A;
+    background-color: #2C3657;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    margin: 0px 25px 25px 25px;
+    cursor: pointer;
+    animation: transitionIn 2s;
+}
+
+/* .article-box background */
+#you-tube {
+    background-image: url(./images/you-tube.png);
+    background-size: cover;
+}
+
+#tripper {
+    background-image: url(./images/image-2.png);
+    background-size: cover;
+}
+
+#linkclub {
+    background-image: url(./images/image-3.png);
+    background-size: cover;
+}
+
+#shot-1 {
+    background-image: url(./images/shot-1.jpg);
+    background-size: cover;
+}
+
+#shot-2 {
+    background-image: url(./images/shot-2.jpg);
+    background-size: cover;
+}
+
+#shot-3 {
+    background-image: url(./images/shot-3.jpg);
+    background-size: cover;
+}
+
+#shot-4 {
+    background-image: url(./images/shot-4.jpg);
+    background-size: cover;
+}
+
+.article-label {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #181B33;
+    background-color: #EF85AE;
+    padding: 2px 6px 2px 6px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    margin: 240px 0px 0px 40px;
+}
+
+.card-title {
+
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0px 0px 40px;
+    overflow-wrap:break-word;
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 360px;
+}
+
+footer {
+    height: 50px;
+    border: 0.5px solid #212C4F;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #8B8D99;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #181B33;
+}
+
+/* Contact popup (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    padding-top: 40px;
+    width: 700px;
+    height: 550px;
+    overflow: auto;
+    background-color:#212C4F;
+    border-radius: 20px;
+    border: 2px solid white;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 100px 40px #212C4F;
+}
+  
+/* Popup Content */
+.contact-image {
+    display: flex;
+    margin-left: 29%;
+    margin-bottom: 36px;
+
+}
+
+.contact-image img {
+    width: 35px;
+    height: 35px;
+}
+
+.reply-label {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    line-height: 35px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.social-section {
+    margin-top: 90px;
+
+}
+
+.social-link-item {
+    padding: 0 16px 0 16px;
+}
+
+.social-link-item-about {
+    margin-right: 30px;
+}
+
+.social-link-item:hover {
+    opacity: 50%;
+}
+
+.social-link-item-about:hover {
+    opacity: 50%;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 45px;
+}
+  
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup-content p {
+    margin-bottom: 26px;
+}
+
+/* Rules for About Me page */
+.about-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.about-title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.articles-box.about-me {
+    padding: 34px;
+    cursor: unset;
+} 
+
+@media screen and (max-width:480px) {
+
+    header {
+        margin-bottom: 14px;
+    }
+
+    nav {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    
+    nav .tab-button {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .current-page {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    section p {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .main-profile-image {
+        margin-left: 115px;
+        margin-top: -3px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .articles-box {
+        min-width: 406px;
+        height: 290px;
+        margin: 0px 10px 20px 10px;
+    }
+
+    .article-label {
+        margin: 170px 0px 0px 30px;
+    }
+    
+    .card-title {
+        font-size: 20px;
+        margin: 16px 0px 0px 30px;
+    }
+
+    .current-job {
+        margin-bottom: 45px;
+    }
+
+    .about-label {
+        font-size: 14px;
+    }
+
+    .about-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .articles-box.about-me {
+        padding: 25px;
+    } 
+
+    .social-link-item-about {
+        margin-right: 25px;
+    }
+
+    /* Contact popup (background) */
+    .modal {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
+        padding: 25px;
+    }       
+
+    /* Popup Content */
+    .popup-content {
+        margin-top: 100px;
+    }
+    .contact-image {
+        margin-left: 14%;
+
+    }
+
+    .social-section {
+        margin-top: 140px;
+
+    }
+
+    .social-link-item {
+        padding: 0 13px 0 13px;
+    }
+
+    .social-link-item-about {
+        margin-right: 30px;
+    }
+
+
+ 
+    
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="22px" viewBox="0 0 94 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Work-D" transform="translate(-673.000000, -31.000000)">
+            <g id="Logo" transform="translate(673.000000, 30.000000)">
+                <text id="OISHY." font-family="Montserrat-Bold, Montserrat" font-size="20" font-weight="bold" letter-spacing="-3.398072e-09">
+                    <tspan x="24" y="19" fill="#7CE1BB">OISHY</tspan>
+                    <tspan x="89.12" y="19" fill="#EF85AE">.</tspan>
+                </text>
+                <rect id="Rectangle" fill="#7CE1BB" x="0" y="1" width="22" height="22" rx="11"></rect>
+                <text id="M" font-family="Montserrat-Bold, Montserrat" font-size="16" font-weight="bold" letter-spacing="-2.7184576e-09" fill="#212C4F">
+                    <tspan x="3.36" y="17">M</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

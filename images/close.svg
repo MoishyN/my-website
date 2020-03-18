@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>round-close-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact-D" transform="translate(-1026.000000, -196.000000)">
+            <g id="Contact-Popup" transform="translate(370.000000, 170.000000)">
+                <g id="round-close-24px" transform="translate(650.000000, 20.000000)">
+                    <polygon id="Path" points="0 0 30 0 30 30 0 30"></polygon>
+                    <path d="M22.875,7.1375 C22.3875,6.65 21.6,6.65 21.1125,7.1375 L15,13.2375 L8.8875,7.125 C8.4,6.6375 7.6125,6.6375 7.125,7.125 C6.6375,7.6125 6.6375,8.4 7.125,8.8875 L13.2375,15 L7.125,21.1125 C6.6375,21.6 6.6375,22.3875 7.125,22.875 C7.6125,23.3625 8.4,23.3625 8.8875,22.875 L15,16.7625 L21.1125,22.875 C21.6,23.3625 22.3875,23.3625 22.875,22.875 C23.3625,22.3875 23.3625,21.6 22.875,21.1125 L16.7625,15 L22.875,8.8875 C23.35,8.4125 23.35,7.6125 22.875,7.1375 Z" id="Path" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
